@@ -1,0 +1,8 @@
+{
+    "name": "PolyBuzzToVRChat.Integrater",
+    "rootNamespace": "PolyBuzzToVRChat.Integrater",
+    "references": [
+        "PolyBuzzToVRChat.VRChat",
+        "PolyBuzzToVRChat.Accounting"
+    ]
+}
