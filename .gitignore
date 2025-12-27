@@ -1,0 +1,15 @@
+/library
+*.meta
+*csharpproj
+*.unityproj
+*.sln
+*.slnx
+*.csproj
+*.unity
+/packages
+/UserSettings
+/Logs
+/Temp
+/ProjectSettings
+Assets/XR
+/.vscode
