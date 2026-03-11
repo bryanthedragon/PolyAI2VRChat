@@ -1,0 +1,23 @@
+{
+    "AI": {
+        "Task": {
+            "Hug": false,
+            "kiss": false,    
+            "pat": false,
+            "laugh": false,
+            "cry": false,
+            "question": false,
+            "exclaim": false,
+            "sigh": false,
+            "shrug": false,
+            "wave": false,
+            "point": false,
+            "look": false,
+            "nod": false,
+            "shake": false,
+            "cheer": false,
+            "applause": false,
+            "yawn": false
+        }
+    }
+}

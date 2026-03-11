@@ -1,0 +1,40 @@
+{
+
+    "accounts": {
+        "Account": {
+            "test": {
+                "AccountID": null,
+                "Username": null,
+                "Email": null,
+                "hidden": 
+                {
+                    "PasswordHash": null,
+                    "SecurityQuestion": null,
+                    "SecurityAnswerHash": null,
+                    "TwoFactorEnabled": null,
+                    "LastLoginIP": null,
+                    "CreditCardInfo": null,
+                    "SSN": null,
+                    "BillingAddress": null,
+                    "LastLoginTime": null,
+                    "AccountRecoveryCodes": null,
+                    "PaymentHistory": null,
+                    "DeviceTokens": null,
+                    "SessionTokens": null,
+                    "AuthLogs": null,
+                    "PersonalPreferences": null
+                }
+            },
+            "01": {
+                "AccountID": "01",
+                "Username": "TestUser",
+                "Email": ""
+            },
+            "dev": {
+                "AccountID": "02",
+                "Username": "bryanthedragon",
+                "Email": "gumbreon12@gmail.com"
+            }
+        }
+    }
+}
