@@ -437,10 +437,10 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/Scripts/Persona/Base/Persona.cs"
-"Assets/Scripts/Persona/PolyBuzz/PolyBuzz.cs"
-"Assets/Scripts/Persona/Steam/Steam.cs"
-"Assets/Scripts/Persona/VRChat/VRChat.cs"
+"Assets/Scripts/USys/Persona/Base/Persona.cs"
+"Assets/Scripts/USys/Persona/PolyBuzz/PolyBuzz.cs"
+"Assets/Scripts/USys/Persona/Steam/Steam.cs"
+"Assets/Scripts/USys/Persona/VRChat/VRChat.cs"
 -langversion:9.0
 /deterministic
 /optimize+
