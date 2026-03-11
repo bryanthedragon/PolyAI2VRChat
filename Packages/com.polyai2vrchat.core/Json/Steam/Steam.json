@@ -1,0 +1,10 @@
+{
+    "name": "PolyBuzzToVRChat.Steam",
+    "version": "1.0.0",
+    "description": "Steam is a social virtual reality platform where users can create and interact with virtual environments and avatars. This package integrates PolyBuzz's AI-powered virtual beings into Steam, enhancing user experiences with interactive and intelligent avatars.",
+    "author": {
+        "name": "Steam",
+        "email": "",
+        "url": "https://store.steampowered.com"
+    }
+}
