@@ -1,0 +1,11 @@
+{
+  "name": "com.polyai2vrchat.generics",
+  "version": "1.0.0",
+  "displayName": "PolyBuzz AI to AI2VRChat Generics",
+  "description": "Generics systems for the PolyBuzz AI to AI2VRChat platform.",
+  "unity": "2022.3",
+  "author": {
+    "name": "AIToVRChatTeam",
+    "email": "AIToVRChatTeam@gmail.com"
+  }
+}
