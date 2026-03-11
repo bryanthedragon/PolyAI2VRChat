@@ -442,12 +442,12 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/Scripts/Intigrater/AI/AIIntegrater.cs"
-"Assets/Scripts/Intigrater/Player/PlayerIntegrater.cs"
-"Assets/Scripts/Intigrater/PolyBuzz/PolyBuzzInegrater.cs"
-"Assets/Scripts/Intigrater/Steam/Steamintegrater.cs"
-"Assets/Scripts/Intigrater/UI/UIIntegrator.cs"
-"Assets/Scripts/Intigrater/VRChat/VRChatInegrater.cs"
+"Assets/Scripts/USys/Intigrater/AI/AIIntegrater.cs"
+"Assets/Scripts/USys/Intigrater/Player/PlayerIntegrater.cs"
+"Assets/Scripts/USys/Intigrater/PolyBuzz/PolyBuzzInegrater.cs"
+"Assets/Scripts/USys/Intigrater/Steam/Steamintegrater.cs"
+"Assets/Scripts/USys/Intigrater/UI/UIIntegrator.cs"
+"Assets/Scripts/USys/Intigrater/VRChat/VRChatInegrater.cs"
 -langversion:9.0
 /deterministic
 /optimize+

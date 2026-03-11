@@ -437,10 +437,10 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/Scripts/JsonLoader/Avatar/Base/Avatar.cs"
-"Assets/Scripts/JsonLoader/Avatar/PolyBuzz/PolyBuzz.cs"
-"Assets/Scripts/JsonLoader/Avatar/Steam/Steam.cs"
-"Assets/Scripts/JsonLoader/Avatar/VRChat/VRChat.cs"
+"Assets/Scripts/USys/JsonLoader/Avatar/Base/Avatar.cs"
+"Assets/Scripts/USys/JsonLoader/Avatar/PolyBuzz/PolyBuzz.cs"
+"Assets/Scripts/USys/JsonLoader/Avatar/Steam/Steam.cs"
+"Assets/Scripts/USys/JsonLoader/Avatar/VRChat/VRChat.cs"
 -langversion:9.0
 /deterministic
 /optimize+
