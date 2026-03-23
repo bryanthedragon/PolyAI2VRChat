@@ -1,0 +1,7 @@
+{
+    "name": "AIToVRChat.Runtime.JsonLoader.Persona",
+    "rootNamespace": "AIToVRChat.JsonLoader.Persona",
+    "references": [
+        "AIToVRChat.Runtime.Platform.Generics.Persona"
+    ]
+}

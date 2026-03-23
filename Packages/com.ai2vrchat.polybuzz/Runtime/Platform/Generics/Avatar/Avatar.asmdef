@@ -1,0 +1,7 @@
+{
+    "name": "PolyBuzzToVRChat.Runtime.Platform.Generics.Avatars",
+    "rootNamespace": "PolyBuzzToVRChat.Platform.Generics.Avatars",
+    "references": [
+        "AIToVRChat.Runtime.Platform.Generics.Avatars"
+    ]
+}

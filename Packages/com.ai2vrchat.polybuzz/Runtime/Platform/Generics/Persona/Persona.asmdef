@@ -1,0 +1,14 @@
+{
+    "name": "PolyBuzzToVRChat.Runtime.Platform.Generics.Persona",
+    "rootNamespace": "AIToVRChat.Platform.Generics.Persona",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

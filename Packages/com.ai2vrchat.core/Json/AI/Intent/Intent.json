@@ -1,0 +1,17 @@
+{
+    "AI": {
+        "Intent": {
+            "Greet":"Hello! How can I assist you today?",
+            "Farewell":"Goodbye! Have a great day!",
+            "AskName":"What is your name?",
+            "ProvideName":"My name is PolyAI.",
+            "AskHelp":"How can I help you?",
+            "ProvideHelp":"I can assist you with various tasks. Just let me know what you need!"
+        },
+        "protocol": {
+            "Request":"request",
+            "Response":"response",
+            "Error":"error"
+        }
+    }
+}

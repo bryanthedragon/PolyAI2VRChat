@@ -1,0 +1,16 @@
+{
+    "name": "AIToVRChat.Runtime.AI",
+    "rootNamespace": "AIToVRChat.AI",
+    "references": [
+        "AIToVRChat.Runtime.Platform.Generics.AI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

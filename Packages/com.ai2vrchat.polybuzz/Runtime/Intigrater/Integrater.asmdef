@@ -1,0 +1,17 @@
+{
+    "name": "PolyBuzzToVRChat.Runtime.Integrater",
+    "rootNamespace": "PolyBuzzToVRChat.Runtime.Integrater",
+    "references": [
+        "PolyBuzzToVRChat.Runtime.Accounting",
+        "PolyBuzzToVRChat.Runtime.Persona",
+        "PolyBuzzToVRChat.Runtime.Avatar",
+        "PolyBuzzToVRChat.Runtime.UI",
+        "PolyBuzzToVRChat.Runtime.AI",
+        "PolyBuzzToVRChat.Runtime.Platform.Generics.Accounts",
+        "PolyBuzzToVRChat.Runtime.Platform.Generics.Persona",
+        "PolyBuzzToVRChat.Runtime.Platform.Generics.Avatars",
+        "PolyBuzzToVRChat.Runtime.Platform.Generics.UI",
+        "PolyBuzzToVRChat.Runtime.Platform.Generics.AI",
+        "PolyBuzzToVRChat.Runtime.Platform.Generics.Player"
+    ]
+}

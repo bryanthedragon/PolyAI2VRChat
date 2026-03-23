@@ -1,0 +1,11 @@
+{
+  "name": "com.ai2vrchat.core",
+  "version": "1.0.0",
+  "displayName": "AIToVRChat Core",
+  "description": "Core systems for the AIToVRChat AI platform.",
+  "unity": "2022.3",
+  "author": {
+    "name": "AIToVRChatTeam",
+    "email": "AIToVRChatTeam@gmail.com"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "PolyBuzzToVRChat.PolyBuzz",
+    "version": "1.0.0",
+    "description": "PolyBuzz is an AI-powered platform that enables users to create interactive virtual beings for various applications, including VRChat. This package integrates PolyBuzz's capabilities into VRChat, allowing users to enhance their virtual experiences with AI-driven interactions.",
+    "author": {
+        "name": "PolyBuzz",
+        "email": "",
+        "url": "https://www.polybuzz.ai/"
+    }
+}
