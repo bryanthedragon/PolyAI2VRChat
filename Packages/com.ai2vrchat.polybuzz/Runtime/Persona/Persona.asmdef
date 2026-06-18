@@ -1,7 +1,0 @@
-{
-    "name": "PolyBuzzToVRChat.Runtime.Persona",
-    "rootNamespace": "PolyBuzzToVRChat.Runtime.Persona",
-    "references": [
-        "PolyBuzzToVRChat.Runtime.Platform.Generics.Persona"
-    ]
-}

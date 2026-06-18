@@ -1,4 +1,4 @@
 {
-    "name": "PolyBuzzToVRChat.Platform",
-    "rootNamespace": "PolyBuzzToVRChat.Platform.Core"
+    "name": "PolyBuzzToVRChat.Generics.Platform.Core",
+    "rootNamespace": "PolyBuzzToVRChat.Platform"
 }

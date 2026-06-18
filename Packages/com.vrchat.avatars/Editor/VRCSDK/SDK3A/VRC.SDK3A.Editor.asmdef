@@ -18,12 +18,12 @@
     "defineConstraints": [],
     "versionDefines": [
         {
-            "name": "com.vrchat.base",
+            "name": "com.vrchat",
             "expression": "3.0.0",
             "define": "VRC_SDK_VRCSDK3"
         },
         {
-            "name": "com.vrchat.base",
+            "name": "com.vrchat",
             "expression": "3.0.0",
             "define": "VRCUPM"
         }

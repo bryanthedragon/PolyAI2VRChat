@@ -1,4 +1,4 @@
-namespace PolyBuzzToVRChat.Platform.Generics.UI
+namespace PolyBuzzToVRChat.Platform.Generics.UI.Menu
 {
     public interface IMenu
     {

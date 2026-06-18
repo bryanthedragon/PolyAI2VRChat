@@ -19,7 +19,7 @@ namespace PolyBuzzToVRChat.Platform.Generics.AI.Task.Type.Action
         Cheer,
         Applause,
         Yawn,
-
-        None
+        None,
+        Action
     }
 }

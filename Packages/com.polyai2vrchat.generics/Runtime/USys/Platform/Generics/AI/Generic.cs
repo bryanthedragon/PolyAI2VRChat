@@ -8,15 +8,15 @@ namespace PolyBuzzToVRChat.Platform.Generics.AI
 {
     public interface IAI
     {
-        public IAIIntent Intent { get; set; }
+        public abstract IAIIntent Intent { get; set; }
 
-        public IAIGoal Goal { get; set; }
+        public abstract IAIGoal Goal { get; set; }
 
-        public IAIEmotion Emotion { get; set; }
+        public abstract IAIEmotion Emotion { get; set; }
 
-        public IAITask Task { get; set; }
+        public abstract IAITask Task { get; set; }
 
-        public IAIPersonality Personality { get; set; }
+        public abstract IAIPersonality Personality { get; set; }
         
         /// <summary>
         /// Starts the task.

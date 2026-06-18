@@ -6,7 +6,7 @@ using BlackStartX.GestureManager.Editor.Data;
 using BlackStartX.GestureManager.Editor.Library;
 using BlackStartX.GestureManager.Editor.Modules.Vrc3.Params;
 using BlackStartX.GestureManager.Editor.Modules.Vrc3.RadialSlices;
-using BlackStartX.GestureManager.Editor.Modules.Vrc3.RadialPuppets.Base;
+using BlackStartX.GestureManager.Editor.Modules.Vrc3.RadialPuppets;
 using BlackStartX.GestureManager.Library;
 using UnityEngine;
 using UnityEngine.UIElements;

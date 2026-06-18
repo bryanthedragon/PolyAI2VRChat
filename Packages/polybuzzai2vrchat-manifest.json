@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "com.ai2vrchat.core": "1.0.0",
-    "com.ai2vrchat.polybuzz": "1.0.0",
-    "com.polybuzzai2vrchat.core": "1.0.0",
-    "com.polybuzzai2vrchat.jsons": "1.0.0"
+    "com.polyai2vrchat.core": "1.0.0",
+    "com.polyai2vrchat.jsons": "1.0.0",
+    "com.polyai2vrchat.abstractor": "1.0.0",
+    "com.polyai2vrchat.generics": "1.0.0"
   }
 }

@@ -195,7 +195,7 @@ namespace VRLabs.AV3Manager
 			_paramsListContainer.Clear();
 			var usedParameters = new List<string>();
 			HashSet<string> set = new HashSet<string>();
-			foreach (VRCAvatarDescriptor.CustomAnimLayer x in _avatar.baseAnimationLayers.Concat(
+			foreach (VRCAvatarDescriptor.CustomAnimLayer x in _avatarAnimationLayers.Concat(
 				         _avatar.specialAnimationLayers))
 			{
 				var controller = x.animatorController as AnimatorController;

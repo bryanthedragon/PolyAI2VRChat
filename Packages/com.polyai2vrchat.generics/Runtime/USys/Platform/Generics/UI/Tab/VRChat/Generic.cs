@@ -2,31 +2,31 @@ namespace PolyBuzzToVRChat.Platform.Generics.UI.Tab.VRChat
 {
     public class VRChatTabs : ITabs
     {
-        bool ITabs.isActive  { get; set; }
-        bool ITabs.isVisible { get; set; }
-        bool ITabs.isHovered { get; set; }
-        bool ITabs.isFocused { get; set; }
+        public bool isActive  { get; set; }
+        public bool isVisible { get; set; }
+        public bool isHovered { get; set; }
+        public bool isFocused { get; set; }
 
         public void Close()
         {
-            isActive()= false;   
+            isActive = false;
         }
 
         public void Open()
         {
-            isActive() = true;   
+            isActive = true;
         }
 
         public class AvatarTab : VRChatTabs
         {
             public new void Close()
             {
-                isActive()= false;   
+                isActive = false;
             }
 
             public new void Open()
             {
-                isActive() = true;   
+                isActive = true;
             }
         }
         
@@ -34,12 +34,12 @@ namespace PolyBuzzToVRChat.Platform.Generics.UI.Tab.VRChat
         {
             public new void Close()
             {
-                isActive()= false;   
+                isActive = false;
             }
 
             public new void Open()
             {
-                isActive() = true;
+                isActive = true;
             }
         }
 
@@ -47,12 +47,12 @@ namespace PolyBuzzToVRChat.Platform.Generics.UI.Tab.VRChat
         {
             public new void Close()
             {
-                isActive()= false;   
+                isActive = false;
             }
 
             public new void Open()
             {
-                isActive() = true;
+                isActive = true;
             }
         }
         
@@ -60,12 +60,12 @@ namespace PolyBuzzToVRChat.Platform.Generics.UI.Tab.VRChat
         {
             public new void Close()
             {
-                isActive()= false;   
+                isActive = false;
             }
 
             public new void Open()
             {
-                isActive() = true;
+                isActive = true;
             }
         }
         
@@ -73,12 +73,12 @@ namespace PolyBuzzToVRChat.Platform.Generics.UI.Tab.VRChat
         {
             public new void Close()
             {
-                isActive()= false;   
+                isActive = false;
             }
 
             public new void Open()
             {
-                isActive() = true;
+                isActive = true;
             }
         }
         
@@ -86,12 +86,12 @@ namespace PolyBuzzToVRChat.Platform.Generics.UI.Tab.VRChat
         {
             public new void Close()
             {
-                isActive()= false;   
+                isActive = false;
             }
 
             public new void Open()
             {
-                isActive() = true;
+                isActive = true;
             }
         }
         
@@ -99,12 +99,12 @@ namespace PolyBuzzToVRChat.Platform.Generics.UI.Tab.VRChat
         {
             public new void Close()
             {
-                isActive()= false;   
+                isActive = false;
             }
 
             public new void Open()
             {
-                isActive() = true;
+                isActive = true;
             }
         }
 
@@ -112,12 +112,12 @@ namespace PolyBuzzToVRChat.Platform.Generics.UI.Tab.VRChat
         {
             public new void Close()
             {
-                isActive()= false;   
+                isActive = false;
             }
 
             public new void Open()
             {
-                isActive() = true;
+                isActive = true;
             }
         }
         
@@ -125,25 +125,25 @@ namespace PolyBuzzToVRChat.Platform.Generics.UI.Tab.VRChat
         {
             public new void Close()
             {
-                isActive()= false;   
+                isActive = false;
             }
 
             public new void Open()
             {
-                isActive() = true;
+                isActive = true;
             }
         }
 
         public class HelpTab : VRChatTabs
-                {
+        {
             public new void Close()
             {
-                isActive()= false;   
+                isActive = false;
             }
 
             public new void Open()
             {
-                isActive() = true;
+                isActive = true;
             }
         }
         
@@ -151,12 +151,12 @@ namespace PolyBuzzToVRChat.Platform.Generics.UI.Tab.VRChat
         {
             public new void Close()
             {
-                isActive()= false;   
+                isActive = false;
             }
 
             public new void Open()
             {
-                isActive() = true;
+                isActive = true;
             }
         }
 
@@ -164,12 +164,12 @@ namespace PolyBuzzToVRChat.Platform.Generics.UI.Tab.VRChat
         {
             public new void Close()
             {
-                isActive()= false;   
+                isActive = false;
             }
 
             public new void Open()
             {
-                isActive() = true;
+                isActive = true;
             }
         }
         
@@ -177,12 +177,12 @@ namespace PolyBuzzToVRChat.Platform.Generics.UI.Tab.VRChat
         {
             public new void Close()
             {
-                isActive()= false;   
+                isActive = false;
             }
 
             public new void Open()
             {
-                isActive() = true;
+                isActive = true;
             }
         }
     }

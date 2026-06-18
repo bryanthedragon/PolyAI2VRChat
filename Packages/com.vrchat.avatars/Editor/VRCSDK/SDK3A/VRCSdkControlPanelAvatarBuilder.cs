@@ -546,7 +546,7 @@ namespace VRC.SDK3A.Editor
         {
             avatar.animationHashSet.Clear();
 
-            foreach (VRCAvatarDescriptor.CustomAnimLayer animLayer in avatar.baseAnimationLayers)
+            foreach (VRCAvatarDescriptor.CustomAnimLayer animLayer in avatarAnimationLayers)
             {
                 AnimatorController controller = animLayer.animatorController as AnimatorController;
                 if (controller != null)
@@ -592,7 +592,7 @@ namespace VRC.SDK3A.Editor
             //Validate Playable Layers
             if (avatarSDK3 != null && avatarSDK3.customizeAnimationLayers)
             {
-                VRCAvatarDescriptor.CustomAnimLayer gestureLayer = avatarSDK3.baseAnimationLayers[2];
+                VRCAvatarDescriptor.CustomAnimLayer gestureLayer = avatarSDK3AnimationLayers[2];
                 if (anim != null
                     && anim.isHuman
                     && gestureLayer.animatorController != null
@@ -4438,7 +4438,7 @@ namespace VRC.SDK3A.Editor
         {
             if (avatarSDK3 != null)
             {
-                foreach (VRCAvatarDescriptor.CustomAnimLayer customLayer in avatarSDK3.baseAnimationLayers)
+                foreach (VRCAvatarDescriptor.CustomAnimLayer customLayer in avatarSDK3AnimationLayers)
                 {
                     AnimatorController controller = customLayer.animatorController as AnimatorController;
                     if (controller != null)
@@ -4525,7 +4525,7 @@ namespace VRC.SDK3A.Editor
         {
             if (avatarSDK3 != null)
             {
-                foreach (VRCAvatarDescriptor.CustomAnimLayer customLayer in avatarSDK3.baseAnimationLayers)
+                foreach (VRCAvatarDescriptor.CustomAnimLayer customLayer in avatarSDK3AnimationLayers)
                 {
                     AnimatorController controller = customLayer.animatorController as AnimatorController;
                     if (controller != null)
@@ -4611,7 +4611,7 @@ namespace VRC.SDK3A.Editor
             List<AudioClip> errorClips = new List<AudioClip>();
             if (avatarSDK3 != null)
             {
-                foreach (VRCAvatarDescriptor.CustomAnimLayer customLayer in avatarSDK3.baseAnimationLayers)
+                foreach (VRCAvatarDescriptor.CustomAnimLayer customLayer in avatarSDK3AnimationLayers)
                 {
                     AnimatorController controller = customLayer.animatorController as AnimatorController;
                     if (controller != null)

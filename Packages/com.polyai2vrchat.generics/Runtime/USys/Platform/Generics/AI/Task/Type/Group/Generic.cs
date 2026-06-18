@@ -6,6 +6,6 @@ namespace PolyBuzzToVRChat.Platform.Generics.AI.Task.Type.Group
         Self,
         Other,
         Group,
-        Initiated
+        Initiated,
     }
 }

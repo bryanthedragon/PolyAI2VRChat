@@ -1,0 +1,7 @@
+{
+    "name": "PolyBuzzToVRChat.Generics.Integrater.UI",
+    "rootNamespace": "PolyBuzzToVRChat.Integrater",
+    "references": [
+        "PolyBuzzToVRChat.Generics.UI.Menu"
+    ]
+}

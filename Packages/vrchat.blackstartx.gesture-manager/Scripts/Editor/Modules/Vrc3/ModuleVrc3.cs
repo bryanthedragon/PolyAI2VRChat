@@ -142,7 +142,7 @@ namespace BlackStartX.GestureManager.Editor.Modules.Vrc3
             AvatarAnimator.cullingMode = AnimatorCullingMode.AlwaysAnimate;
             DestroyGraphs();
 
-            var layerList = AvatarDescriptor.baseAnimationLayers.ToList();
+            var layerList = AvatarDescriptorAnimationLayers.ToList();
             layerList.AddRange(AvatarDescriptor.specialAnimationLayers);
             layerList.Sort(ModuleVrc3Styles.Data.LayerSort);
             var intCount = layerList.Count + 1;

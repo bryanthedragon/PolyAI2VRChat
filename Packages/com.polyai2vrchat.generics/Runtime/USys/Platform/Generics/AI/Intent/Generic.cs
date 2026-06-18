@@ -2,8 +2,8 @@ namespace PolyBuzzToVRChat.Platform.Generics.AI.Intent
 {
     public interface IAIIntent
     {
-        bool isExecuted { get; set; }
-        bool isFinished { get; set; }
+        abstract bool isExecuted { get; set; }
+        abstract bool isFinished { get; set; }
         bool isFailed { get; set; }
         bool isInProgress { get; set; }
         bool isViolated { get; set; }

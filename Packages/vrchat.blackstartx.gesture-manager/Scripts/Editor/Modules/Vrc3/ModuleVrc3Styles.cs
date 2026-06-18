@@ -147,14 +147,14 @@ namespace BlackStartX.GestureManager.Editor.Modules.Vrc3
                 AnimLayerType.Additive => null,
                 AnimLayerType.Sitting => null,
                 AnimLayerType.Action => null,
-                AnimLayerType.Base => null,
+                AnimLayerType => null,
                 _ => null
             };
 
             private static readonly Dictionary<AnimLayerType, string> NameOf = new()
             {
                 { AnimLayerType.FX, "GmgFxLayer" },
-                { AnimLayerType.Base, "GmgBaseLayer" },
+                { AnimLayerType, "GmgBaseLayer" },
                 { AnimLayerType.TPose, "GmgUtilityTPose" },
                 { AnimLayerType.Action, "GmgActionLayer" },
                 { AnimLayerType.IKPose, "GmgUtilityIKPose" },
@@ -181,7 +181,7 @@ namespace BlackStartX.GestureManager.Editor.Modules.Vrc3
 
             internal static readonly Dictionary<AnimLayerType, int> SortValue = new()
             {
-                { AnimLayerType.Base, 0 },
+                { AnimLayerType, 0 },
                 { AnimLayerType.Additive, 1 },
                 { AnimLayerType.Sitting, 2 },
                 { AnimLayerType.TPose, 3 },

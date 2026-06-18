@@ -1,7 +1,7 @@
 ﻿#if VRC_SDK_VRCSDK3
 using System;
 using BlackStartX.GestureManager.Editor.Modules.Vrc3.RadialSlices;
-using BlackStartX.GestureManager.Editor.Modules.Vrc3.RadialPuppets.Base;
+using BlackStartX.GestureManager.Editor.Modules.Vrc3.RadialPuppets;
 using BlackStartX.GestureManager.Library;
 using BlackStartX.GestureManager.Library.VisualElements;
 using UnityEngine;

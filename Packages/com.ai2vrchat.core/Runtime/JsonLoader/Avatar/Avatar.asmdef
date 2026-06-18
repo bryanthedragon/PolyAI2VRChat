@@ -1,7 +1,0 @@
-{
-    "name": "AIToVRChat.Runtime.JsonLoader.Avatar",
-    "rootNamespace": "AIToVRChat.JsonLoader.Avatar",
-    "references": [
-        "AIToVRChat.Runtime.Platform.Generics.JsonLoader"
-    ]
-}

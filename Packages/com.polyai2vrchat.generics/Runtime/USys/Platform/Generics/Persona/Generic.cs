@@ -45,5 +45,5 @@ namespace PolyBuzzToVRChat.Platform.Generics.Persona
         public string Occupation { get; set; }
         public string Background { get; set; }
         public int PersonaId { get; set; }
-    }
+    }    
 }

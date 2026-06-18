@@ -1,0 +1,11 @@
+{
+    "name": "PolyBuzzToVRChat.Generics.Platform.AI",
+    "rootNamespace": "PolyBuzzToVRChat.Platform",
+    "references": [
+        "PolyBuzzToVRChat.Generics.Platform.AI.Intent",
+        "PolyBuzzToVRChat.Generics.Platform.AI.Personality",
+        "PolyBuzzToVRChat.Generics.Platform.AI.Goal",
+        "PolyBuzzToVRChat.Generics.Platform.AI.Emotion",
+        "PolyBuzzToVRChat.Generics.Platform.AI.Task"
+    ]
+}

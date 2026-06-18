@@ -1,0 +1,11 @@
+{
+    "name": "PolyBuzzToVRChat.Generics.Integrater.PolyBuzz",
+    "rootNamespace": "PolyBuzzToVRChat.Integrater",
+    "references": [
+        "PolyBuzzToVRChat.Generics.Platform.Core",
+        "PolyBuzzToVRChat.Generics.Platform.Avatar",
+        "PolyBuzzToVRChat.Abstractor.Avatar",
+        "PolyBuzzToVRChat.Abstractor.Accounting",
+        "PolyBuzzToVRChat.Abstractor.Persona"
+    ]
+}

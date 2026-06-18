@@ -1,7 +1,0 @@
-{
-    "name": "PolyBuzzToVRChat.Runtime.Accounting",
-    "rootNamespace": "PolyBuzzToVRChat.Runtime.Accounting",
-    "references": [
-        "PolyBuzzToVRChat.Runtime.Platform.Generics.Accounts"
-    ]
-}

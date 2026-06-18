@@ -10,7 +10,8 @@ namespace PolyBuzzToVRChat.Platform.Generics.AI.Emotion
         void GetEmotion();
 
         // Set emotion
-        EmotionType SetEmotion();
+        EmotionType SetEmotion(EmotionType emotion);
+        void Express();
 
         // Happiness
         bool isHappy { get; set; }

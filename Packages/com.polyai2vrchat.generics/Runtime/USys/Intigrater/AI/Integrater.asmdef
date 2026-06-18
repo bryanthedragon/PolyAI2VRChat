@@ -1,0 +1,19 @@
+{
+    "name": "PolyBuzzToVRChat.Generics.Integrater.AI",
+    "rootNamespace": "PolyBuzzToVRChat.Integrater",
+    "references": [
+        "PolyBuzzToVRChat.Accounting",
+        "PolyBuzzToVRChat.Persona",
+        "PolyBuzzToVRChat.Avatar",
+        "PolyBuzzToVRChat.UI",
+        "PolyBuzzToVRChat.AI",
+        "PolyBuzzToVRChat.Generics.Platform.Core",
+        "PolyBuzzToVRChat.Generics.Platform.AI.Task",
+        "PolyBuzzToVRChat.Generics.Platform.AI.Personality",
+        "PolyBuzzToVRChat.Generics.Platform.AI.Intent",
+        "PolyBuzzToVRChat.Generics.Platform.AI.Goal",
+        "PolyBuzzToVRChat.Generics.Platform.AI.Emotion",
+        "PolyBuzzToVRChat.Generics.Platform.AI"
+
+    ]
+}

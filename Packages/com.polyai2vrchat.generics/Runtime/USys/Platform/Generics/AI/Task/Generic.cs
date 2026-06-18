@@ -1,4 +1,6 @@
-using PolyBuzzToVRChat.Platform.Generics.AI.Task.Type.Base;
+using PolyBuzzToVRChat.Platform.Generics.AI.Task.Type.Action;
+using PolyBuzzToVRChat.Platform.Generics.AI.Task.Type.Group;
+using PolyBuzzToVRChat.Platform.Generics.AI.Task.Type;
 
 namespace PolyBuzzToVRChat.Platform.Generics.AI.Task
 {
@@ -6,11 +8,11 @@ namespace PolyBuzzToVRChat.Platform.Generics.AI.Task
     {
         public TaskBaseType getTaskType();
 
-        public TaskBaseType getTaskGroupType();
+        public TaskGroupType getTaskGroupType();
 
-        public TaskBaseType GetTaskActionType();
+        public TaskActionType GetTaskActionType();
 
-        public string Task { get; set; }
+        public abstract string Task { get; set; }
         
         public bool TaskIsComplete { get; set; }
         
@@ -36,10 +38,10 @@ namespace PolyBuzzToVRChat.Platform.Generics.AI.Task
         
         public bool IsExecuted { get; set; }
         
-        public void ExecuteTask();
+        public abstract void ExecuteTask();
 
-        public void TaskKill();
+        public abstract void TaskKill();
 
-        public void FinishTask();
+        public abstract void FinishTask();
     }
 }

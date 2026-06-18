@@ -1,3 +1,4 @@
+using PolyBuzzToVRChat.Platform.Generics.UI.Menu;
 using PolyBuzzToVRChat.Platform.Generics.UI.Tab.AI;
 using PolyBuzzToVRChat.Platform.Generics.UI.Tab.Steam;
 using PolyBuzzToVRChat.Platform.Generics.UI.Tab.VRChat;
@@ -6,10 +7,10 @@ namespace PolyBuzzToVRChat.Platform.Generics.UI.Tab
 {
     public interface ITabs : IMenu
     {
-        public bool isActive { get; set; }
-        public bool isVisible { get; set; }
-        public bool isHovered { get; set; }
-        public bool isFocused { get; set; }      
+        public abstract bool isActive { get; set; }
+        public abstract bool isVisible { get; set; }
+        public abstract bool isHovered { get; set; }
+        public abstract bool isFocused { get; set; }      
     }
     public sealed class AITab : AITabs
     {

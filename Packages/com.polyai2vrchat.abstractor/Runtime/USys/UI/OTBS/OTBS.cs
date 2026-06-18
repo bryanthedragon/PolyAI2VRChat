@@ -8,6 +8,5 @@ namespace PolyBuzzToVRChat.UI.OTBS
         public AIOTBS AITab;
         public SteamOTBS SteamTab;
         public VRChatOTBS VRChatTab;
-        public PolyBuzzOTBS PolyBuzzTab;
     }
 }

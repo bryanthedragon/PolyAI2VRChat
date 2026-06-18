@@ -1025,7 +1025,7 @@ namespace VRC.Editor
                     continue;
                 }
 
-                if (importer.assetPath.Contains("com.vrchat.base"))
+                if (importer.assetPath.Contains("com.vrchat"))
                 {
                     plugins.Add(importer);
                 }

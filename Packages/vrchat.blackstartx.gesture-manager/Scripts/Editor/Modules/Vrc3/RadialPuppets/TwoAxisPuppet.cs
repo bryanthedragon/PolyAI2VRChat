@@ -1,6 +1,6 @@
 ﻿#if VRC_SDK_VRCSDK3
 using BlackStartX.GestureManager.Editor.Modules.Vrc3.RadialSlices;
-using BlackStartX.GestureManager.Editor.Modules.Vrc3.RadialPuppets.Base;
+using BlackStartX.GestureManager.Editor.Modules.Vrc3.RadialPuppets;
 
 namespace BlackStartX.GestureManager.Editor.Modules.Vrc3.RadialPuppets
 {

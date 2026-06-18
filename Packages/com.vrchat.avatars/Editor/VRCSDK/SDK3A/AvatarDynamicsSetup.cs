@@ -1047,7 +1047,7 @@ namespace VRC.SDK3.Avatars
             if (avatarDescriptor != null)
             {
                 // Fetch animation clips from this avatar.
-                GetAnimationClipsFromAvatarLayers(avatarDescriptor.baseAnimationLayers, results);
+                GetAnimationClipsFromAvatarLayers(avatarDescriptorAnimationLayers, results);
                 GetAnimationClipsFromAvatarLayers(avatarDescriptor.specialAnimationLayers, results);
             }
             else

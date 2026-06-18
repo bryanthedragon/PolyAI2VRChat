@@ -32,7 +32,7 @@ namespace BlackStartX.GestureManager.Editor.Modules.Vrc3.RadialSlices
             _subLabels = control.labels;
             _parameter = menu.GetParam(control.parameter.name);
             _subParameters = control.subParameters == null ? Array.Empty<Vrc3Param>() : control.subParameters.Select(parameter => menu.GetParam(parameter.name)).ToArray();
-            Settings = RadialSettings.Base;
+            Settings = RadialSettings;
         }
 
         public RadialSliceControl(RadialMenu menu, string name, Texture2D icon, ControlType type, float activeValue, Vrc3Param param, Vrc3Param[] subParams, VRCExpressionsMenu subMenu, VRCExpressionsMenu.Control.Label[] subLabels, float? amplify = null, RadialSettings settings = null) : base(name, icon, RadialMenuUtility.GetSubIcon(type), RadialMenuUtility.GetDynamicType(type), activeValue)
@@ -44,7 +44,7 @@ namespace BlackStartX.GestureManager.Editor.Modules.Vrc3.RadialSlices
             _parameter = param;
             _subLabels = subLabels;
             _subParameters = subParams;
-            Settings = settings ?? RadialSettings.Base;
+            Settings = settings ?? RadialSettings;
         }
 
         protected override void CreateExtra()

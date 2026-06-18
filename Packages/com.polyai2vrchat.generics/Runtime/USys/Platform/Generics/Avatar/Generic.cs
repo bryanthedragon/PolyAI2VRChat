@@ -4,8 +4,8 @@ namespace PolyBuzzToVRChat.Platform.Generics.Avatars
 {
     public interface IAvatar
     {
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public abstract string Name { get; set; }
+        public abstract string Description { get; set; }
         public string AvatarId { get; set; }
         public string AvatarCreatorId { get; set; }
         public string Customization { get; set; }

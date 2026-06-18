@@ -1,7 +1,0 @@
-{
-    "name": "AIToVRChat.Runtime.JsonLoader.Accounting",
-    "rootNamespace": "AIToVRChat.JsonLoader.Accounting",
-    "references": [
-        "AIToVRChat.Runtime.Platform.Generics.Accounts"
-    ]
-}
