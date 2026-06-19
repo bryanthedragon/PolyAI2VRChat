@@ -17,6 +17,8 @@ namespace BlackStartX.GestureManager.Editor.Modules.Vrc3
         private static GUIStyle _url;
         private static GUIStyle _urlPro;
 
+        private static GameObject _cullingDiamond;
+
         private static Texture2D _emojis;
         private static Texture2D _option;
         private static Texture2D _expressions;
@@ -67,9 +69,12 @@ namespace BlackStartX.GestureManager.Editor.Modules.Vrc3
         private static Texture2D _isLocal;
         private static Texture2D _extras;
         private static Texture2D _isOnFriendsList;
+        private static Texture2D _isAnimatorEnabled;
 
         internal static GUIStyle Url => _url ??= new GUIStyle(GUI.skin.label) { padding = new RectOffset(-6, -6, 1, 0), normal = { textColor = Color.blue } };
         internal static GUIStyle UrlPro => _urlPro ??= new GUIStyle(GUI.skin.label) { padding = new RectOffset(-6, -6, 1, 0), normal = { textColor = Color.cyan } };
+
+        internal static GameObject CullingDiamond => !_cullingDiamond ? _cullingDiamond = Resources.Load<GameObject>("Vrc3/Meshes/CullingDiamond") : _cullingDiamond;
 
         internal static Texture2D Emojis => !_emojis ? _emojis = Resources.Load<Texture2D>("Vrc3/BSX_GM_Emojis") : _emojis;
         internal static Texture2D Option => !_option ? _option = Resources.Load<Texture2D>("Vrc3/BSX_GM_Option") : _option;
@@ -121,6 +126,7 @@ namespace BlackStartX.GestureManager.Editor.Modules.Vrc3
         internal static Texture2D IsLocal => !_isLocal ? _isLocal = Resources.Load<Texture2D>("Vrc3/BSX_GM_IsLocal") : _isLocal;
         internal static Texture2D Extras => !_extras ? _extras = Resources.Load<Texture2D>("Vrc3/BSX_GM_Extras") : _extras;
         internal static Texture2D IsOnFriendsList => !_isOnFriendsList ? _isOnFriendsList = Resources.Load<Texture2D>("Vrc3/BSX_GM_IsOnFriendsList") : _isOnFriendsList;
+        internal static Texture2D IsAnimatorEnabled => !_isAnimatorEnabled ? _isAnimatorEnabled = Resources.Load<Texture2D>("Vrc3/BSX_GM_IsAnimatorEnabled") : _isAnimatorEnabled;
 
         public static class Data
         {
@@ -143,18 +149,13 @@ namespace BlackStartX.GestureManager.Editor.Modules.Vrc3
                 AnimLayerType.IKPose => Masks.Armature,
                 AnimLayerType.TPose => Masks.Armature,
                 AnimLayerType.FX => Masks.Empty,
-                AnimLayerType.Deprecated0 => null,
-                AnimLayerType.Additive => null,
-                AnimLayerType.Sitting => null,
-                AnimLayerType.Action => null,
-                AnimLayerType => null,
                 _ => null
             };
 
             private static readonly Dictionary<AnimLayerType, string> NameOf = new()
             {
                 { AnimLayerType.FX, "GmgFxLayer" },
-                { AnimLayerType, "GmgBaseLayer" },
+                { AnimLayerType.Base, "GmgBaseLayer" },
                 { AnimLayerType.TPose, "GmgUtilityTPose" },
                 { AnimLayerType.Action, "GmgActionLayer" },
                 { AnimLayerType.IKPose, "GmgUtilityIKPose" },
@@ -181,7 +182,7 @@ namespace BlackStartX.GestureManager.Editor.Modules.Vrc3
 
             internal static readonly Dictionary<AnimLayerType, int> SortValue = new()
             {
-                { AnimLayerType, 0 },
+                { AnimLayerType.Base, 0 },
                 { AnimLayerType.Additive, 1 },
                 { AnimLayerType.Sitting, 2 },
                 { AnimLayerType.TPose, 3 },

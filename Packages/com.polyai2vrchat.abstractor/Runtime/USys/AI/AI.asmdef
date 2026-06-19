@@ -2,7 +2,6 @@
     "name": "PolyBuzzToVRChat.Abstractor.AI",
     "rootNamespace": "PolyBuzzToVRChat.AI",
     "references": [
-        "PolyBuzzToVRChat.Generics.Platform.AI"
     ]
 
 }

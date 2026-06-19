@@ -11,7 +11,7 @@ public partial class AvatarDescriptorEditor3 : Editor
 
     List<EditorAnimLayerInfo> baseAnimLayerTypes = new List<EditorAnimLayerInfo>
     {
-        {new EditorAnimLayerInfo("Locomotion", VRCAvatarDescriptor.AnimLayerType)},
+        {new EditorAnimLayerInfo("Locomotion", VRCAvatarDescriptor.AnimLayerType.Base)},
         {new EditorAnimLayerInfo("Idle", VRCAvatarDescriptor.AnimLayerType.Additive)},
         {new EditorAnimLayerInfo("Gesture", VRCAvatarDescriptor.AnimLayerType.Gesture)},
         {new EditorAnimLayerInfo("Action", VRCAvatarDescriptor.AnimLayerType.Action)},

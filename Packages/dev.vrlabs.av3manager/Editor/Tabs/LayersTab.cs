@@ -45,7 +45,7 @@ namespace VRLabs.AV3Manager
 				.WithFontSize(10)
 				.ChildOf(TabContainer);
 
-			for (int i = 0; i < avatarAnimationLayers.Length; i++)
+			for (int i = 0; i < avatar.baseAnimationLayers.Length; i++)
 				TabContainer.Add(new AnimatorLayerTabElement(new VrcAnimationLayer(avatar, i), this));
 
 			for (int i = 0; i < avatar.specialAnimationLayers.Length; i++)
@@ -300,8 +300,8 @@ namespace VRLabs.AV3Manager
 		public VrcAnimationLayer(VRCAvatarDescriptor avatar, int index, bool useSpecialLayers = false)
 		{
 			_avatar = avatar;
-			_layerArray = useSpecialLayers ? _avatar.specialAnimationLayers : _avatarAnimationLayers;
-			_offLayerArray = useSpecialLayers ? _avatarAnimationLayers : _avatar.specialAnimationLayers;
+			_layerArray = useSpecialLayers ? _avatar.specialAnimationLayers : _avatar.baseAnimationLayers;
+			_offLayerArray = useSpecialLayers ? _avatar.baseAnimationLayers : _avatar.specialAnimationLayers;
 			_index = index;
 			_expressionParameters = _avatar.expressionParameters;
 

@@ -24,6 +24,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.polyai2vrchat.database": {
+      "version": "file:com.polyai2vrchat.database",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.polyai2vrchat.generics": {
       "version": "file:com.polyai2vrchat.generics",
       "depth": 0,
@@ -36,6 +42,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.polyai2vrchat.ui": {
+      "version": "file:com.polyaivrchat.ui",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.burst": {
       "version": "1.8.29",
       "depth": 1,
@@ -44,6 +56,13 @@
         "com.unity.mathematics": "1.2.1",
         "com.unity.modules.jsonserialize": "1.0.0"
       },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.collab-proxy": {
+      "version": "2.12.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.collections": {

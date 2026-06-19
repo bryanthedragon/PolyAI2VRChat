@@ -1,10 +1,10 @@
 using PolyBuzzToVRChat.Platform.Generics.UI.Tab;
-using PolyBuzzToVRChat.UI.Base.Tabs;
-using static PolyBuzzToVRChat.Platform.Generics.UI.Tab.AI.AITabs.PolyBuzzTab;
+using PolyBuzzToVRChat.Platform.Generics.UI.Tab.AI;
+using PolyBuzzToVRChat.UI.Tabs;
 
 namespace PolyBuzzToVRChat.UI.PolyBuzz.Tab
 {
-    public class PolyBuzzTabUI : Tab<AITab>
+    public class PolyBuzzTabUI : Tab<PolyBuzzTabs>
     {
         /// <summary>
         /// Opens the PolyBuzz Tab.
@@ -41,6 +41,26 @@ namespace PolyBuzzToVRChat.UI.PolyBuzz.Tab
             {
                 Close();
                 // Close the Persona Tab
+            }
+        }
+        protected class Account : Tab<PolyBuzzTabs.AccountTab>
+        {
+            /// <summary>
+            /// Opens the Account Tab.
+            /// </summary>
+            public void OpenWindow()
+            {
+                Open();
+                // Open the Account Tab
+            }
+            
+            /// <summary>
+            /// Closes the Account Tab.
+            /// </summary>
+            public void CloseWindow()
+            {
+                Close();
+                // Close the Account Tab
             }
         }
     }

@@ -1,9 +1,8 @@
-using PolyBuzzToVRChat.Accounting.Base;
 using PolyBuzzToVRChat.Platform.Generics.Accounts;
 
 namespace PolyBuzzToVRChat.Accounting.Steam
 {
-    public class SteamAccount : Account<SteamPlatform>
+    public class SteamAccount : AbstractAccount<SteamPlatform>
     {
         public new void DisplayInfo()
         {

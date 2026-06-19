@@ -4,6 +4,7 @@
     "references": [
         "PolyBuzzToVRChat.Generics.Platform.Core",
         "PolyBuzzToVRChat.Generics.Platform.Avatar",
+        "PolyBuzzToVRChat.Generics.Platform.Persona",
         "PolyBuzzToVRChat.Abstractor.Avatar",
         "PolyBuzzToVRChat.Abstractor.Accounting",
         "PolyBuzzToVRChat.Abstractor.Persona"

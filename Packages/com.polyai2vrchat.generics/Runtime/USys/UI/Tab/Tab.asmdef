@@ -2,6 +2,9 @@
     "name": "PolyBuzzToVRChat.Generics.UI.Tab",
     "rootNamespace": "PolyBuzzToVRChat.UI.Tab",
     "references": [
-        "PolyBuzzToVRChat.Abstractor.UI.Tabs"
+        "PolyBuzzToVRChat.Abstractor.UI.Tabs",
+        "PolyBuzzToVRChat.Generics.Platform.UI.Tabs",
+        "PolyBuzzToVRChat.Generics.Platform.Core",
+        "PolyBuzzToVRChat.Generics.Platform.UI.Menu"
     ]
 }

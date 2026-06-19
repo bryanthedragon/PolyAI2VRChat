@@ -1,6 +1,6 @@
 using PolyBuzzToVRChat.Platform.Generics.UI.Tab;
 using PolyBuzzToVRChat.Platform.Generics.UI.Tab.Steam;
-using PolyBuzzToVRChat.UI.Base.Tabs;
+using PolyBuzzToVRChat.UI.Tabs;
 
 namespace PolyBuzzToVRChat.UI.Steam.Tab
 {

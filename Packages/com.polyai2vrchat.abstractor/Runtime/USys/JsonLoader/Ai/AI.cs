@@ -1,4 +1,5 @@
-using PolyBuzzToVRChat.JsonLoader.AI;
+
+using PolyBuzzToVRChat.Platform.Generics.JsonLoader.AI;
 
 namespace PolyBuzzToVRChat.Abstractor.JsonLoader.AI
 {

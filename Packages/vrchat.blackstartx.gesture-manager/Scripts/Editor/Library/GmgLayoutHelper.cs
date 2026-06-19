@@ -303,12 +303,20 @@ namespace BlackStartX.GestureManager.Editor.Library
             return index;
         }
 
-        public static bool Toggle(string label, bool index, GestureManager o)
+        public static bool Toggle(string label, bool index, UnityEngine.Object o)
         {
             if (index == (index = EditorGUILayout.Toggle(label, index))) return index;
             Undo.RecordObject(o, EventName);
             EditorUtility.SetDirty(o);
             return index;
+        }
+
+        public static float Slider(float value, float leftValue, float rightValue, UnityEngine.Object o)
+        {
+            if (Mathf.Approximately(value, value = EditorGUILayout.Slider(value, leftValue, rightValue))) return value;
+            Undo.RecordObject(o, EventName);
+            EditorUtility.SetDirty(o);
+            return value;
         }
     }
 }

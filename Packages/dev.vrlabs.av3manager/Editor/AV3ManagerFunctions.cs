@@ -54,7 +54,7 @@ namespace VRLabs.AV3Manager
 
 			_defaultControllersPath = new Dictionary<AnimLayerType, string>
 			{
-				{ AnimLayerType, assetsPath + "/Base.controller" },
+				{ AnimLayerType.Base, assetsPath + "/Base.controller" },
 				{ AnimLayerType.Additive, assetsPath + "/Additive.controller" },
 				{ AnimLayerType.Gesture, assetsPath + "/Gesture.controller" },
 				{ AnimLayerType.Action, assetsPath + "/Action.controller" },
@@ -397,8 +397,8 @@ namespace VRLabs.AV3Manager
 			AnimLayerType layer;
 			switch (playable)
 			{
-				case PlayableLayer:
-					layer = AnimLayerType;
+				case PlayableLayer.Base:
+					layer = AnimLayerType.Base;
 					break;
 				case PlayableLayer.Additive:
 					layer = AnimLayerType.Additive;
@@ -467,12 +467,12 @@ namespace VRLabs.AV3Manager
 				case AnimLayerType.Deprecated0:
 					Debug.LogError("Layer is not supported! Merging was not performed.");
 					return;
-				case AnimLayerType:
+				case AnimLayerType.Base:
 				case AnimLayerType.Additive:
 				case AnimLayerType.Gesture:
 				case AnimLayerType.Action:
 				case AnimLayerType.FX:
-					animatorLayerArray = descriptorAnimationLayers;
+					animatorLayerArray = descriptor.baseAnimationLayers;
 					break;
 				case AnimLayerType.Sitting:
 				case AnimLayerType.TPose:
@@ -535,7 +535,7 @@ namespace VRLabs.AV3Manager
 		public static List<WDState> AnalyzeWDState(this VRCAvatarDescriptor descriptor)
 		{
 			var states = new List<WDState>();
-			foreach (var layer in descriptorAnimationLayers)
+			foreach (var layer in descriptor.baseAnimationLayers)
 			{
 				if (!(layer.animatorController is AnimatorController controller) || controller == null) continue;
 				foreach (var animationLayer in controller.layers)
@@ -564,7 +564,7 @@ namespace VRLabs.AV3Manager
 			bool isOn = false;
 			bool checkedFirst = false;
 			bool isMixed;
-			foreach (var layer in descriptorAnimationLayers)
+			foreach (var layer in descriptor.baseAnimationLayers)
 			{
 				if (!(layer.animatorController is AnimatorController controller) || controller == null) continue;
 				foreach (var animationLayer in controller.layers)
@@ -685,9 +685,9 @@ namespace VRLabs.AV3Manager
 				return;
 			}
 
-			for (int i = 0; i < avatarAnimationLayers.Length; i++)
+			for (int i = 0; i < avatar.baseAnimationLayers.Length; i++)
 			{
-				var controller = avatarAnimationLayers[i].animatorController as AnimatorController;
+				var controller = avatar.baseAnimationLayers[i].animatorController as AnimatorController;
 				if (controller != null)
 					SetWriteDefaults(controller, writeDefaults, force, ignoreDbts);
 			}

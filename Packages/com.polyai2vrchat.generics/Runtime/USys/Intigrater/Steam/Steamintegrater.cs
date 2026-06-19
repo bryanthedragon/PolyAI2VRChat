@@ -1,9 +1,10 @@
-using PolyBuzzToVRChat.Accounting.Base;
-using PolyBuzzToVRChat.Avatar.Base;
-using PolyBuzzToVRChat.Persona.Base;
+using PolyBuzzToVRChat.Accounting;
+using PolyBuzzToVRChat.Avatar;
+using PolyBuzzToVRChat.Persona;
 using PolyBuzzToVRChat.Platform.Generics.Accounts;
 using PolyBuzzToVRChat.Platform.Generics.Avatars;
 using PolyBuzzToVRChat.Platform.Generics.Persona;
+
 
 namespace SteamToVRChat.Integrator.Steam
 {
@@ -14,15 +15,7 @@ namespace SteamToVRChat.Integrator.Steam
             // Integration logic goes here
         }
 
-        private class Account : Account<SteamPlatform>
-        {
-            public void GetDisplayInfo() 
-            {
-                DisplayInfo();
-            }
-        }
-
-        class Persona : Persona<SteamPersona>
+        private class Account : AbstractAccount<SteamPlatform>
         {
             public void GetDisplayInfo() 
             {
@@ -30,11 +23,18 @@ namespace SteamToVRChat.Integrator.Steam
             }
         }
         
-        class Avatar : Avatar<SteamAvatar>
+        private class Avatar : AbstractAvatar<SteamAvatar>
         {
             public void GetDisplayInfo() 
             {
                 DisplayInfo();
+            }
+        }
+        private class Persona : AbstractPersona<SteamPersona>
+        {
+            public void GetDisplayInfo()
+            {
+                DisplayInfo();   
             }
         }
     }

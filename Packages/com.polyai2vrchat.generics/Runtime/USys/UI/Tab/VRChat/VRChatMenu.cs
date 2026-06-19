@@ -1,5 +1,6 @@
 using PolyBuzzToVRChat.Platform.Generics.UI.Tab;
-using PolyBuzzToVRChat.UI.Base.Tabs;
+using PolyBuzzToVRChat.Platform.Generics.UI.Tab.VRChat;
+using PolyBuzzToVRChat.UI.Tabs;
 
 namespace PolyBuzzToVRChat.UI.VRChat.Tab
 {
@@ -22,7 +23,7 @@ namespace PolyBuzzToVRChat.UI.VRChat.Tab
             Close();
             // Close the VRChat Tab
         }
-        protected class Avatar : Tab<VRChatTab.AccountTab>
+        protected class Avatar : Tab<VRChatTabs.AccountTab>
         {
             public void OpenWindow()
             {

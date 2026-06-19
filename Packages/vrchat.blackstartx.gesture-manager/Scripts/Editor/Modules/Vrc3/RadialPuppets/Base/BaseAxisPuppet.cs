@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 using VRC.SDK3.Avatars.ScriptableObjects;
 using UIEPosition = UnityEngine.UIElements.Position;
 
-namespace BlackStartX.GestureManager.Editor.Modules.Vrc3.RadialPuppets
+namespace BlackStartX.GestureManager.Editor.Modules.Vrc3.RadialPuppets.Base
 {
     public abstract class BaseAxisPuppet : BasePuppet
     {
