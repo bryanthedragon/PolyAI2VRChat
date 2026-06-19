@@ -1,0 +1,8 @@
+{
+    "name": "PolyBuzzToVRChat.Abstractor.UI.OtherTabs",
+    "rootNamespace": "PolyBuzzToVRChat.UI",
+    "references": [
+        "PolyBuzzToVRChat.Generics.Platform.UI.OtherTabs"
+    ]
+
+}

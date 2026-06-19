@@ -1,5 +1,5 @@
-using PolyBuzzToVRChat.Platform.Generics.Player.Base;
-using PolyBuzzToVRChat.Platform.Generics.Player.Intent.Base;
+using PolyBuzzToVRChat.Platform.Generics.Player;
+using PolyBuzzToVRChat.Platform.Generics.Player.Intent;
 
 namespace PolyBuzzToVRChat.Player.Integrater
 {

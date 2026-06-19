@@ -1,0 +1,9 @@
+{
+    "name": "PolyBuzzToVRChat.Abstractor.Persona",
+    "rootNamespace": "PolyBuzzToVRChat.Persona",
+    "references": [
+        "PolyBuzzToVRChat.Generics.Persona",
+        "PolyBuzzToVRChat.Generics.Platform.Persona"
+    ]
+
+}

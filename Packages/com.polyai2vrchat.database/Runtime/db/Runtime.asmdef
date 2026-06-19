@@ -1,0 +1,9 @@
+﻿{
+    "name": "PolyBuzzToVRChat.Database.DB",
+    "rootNamespace": "PolyBuzzToVRChat.Database",
+    "references": [
+        "Microsoft.Data.Sqlite"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}

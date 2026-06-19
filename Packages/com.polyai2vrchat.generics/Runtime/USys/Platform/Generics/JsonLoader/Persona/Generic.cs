@@ -4,18 +4,28 @@ namespace PolyBuzzToVRChat.Platform.Generics.JsonLoader.Persona
     {
         
     }
-    public sealed class VRChatPersonaJsonLoader : IPersonaJsonLoader
-    {
 
+    namespace VRChat
+    {
+        public sealed class VRChatPersonaJsonLoader : IPersonaJsonLoader
+        {
+
+        }
     }
 
-    public sealed class PolyBuzzPersonaJsonLoader : IPersonaJsonLoader
+    namespace PolyBuzz
     {
+        public sealed class PolyBuzzPersonaJsonLoader : IPersonaJsonLoader
+        {
 
+        }
     }
 
-    public sealed class SteamPersonaJsonLoader : IPersonaJsonLoader
+    namespace Steam
     {
+        public sealed class SteamPersonaJsonLoader : IPersonaJsonLoader
+        {
 
+        }
     }
 }

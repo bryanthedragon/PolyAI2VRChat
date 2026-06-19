@@ -385,8 +385,8 @@ namespace VRC.PackageManagement.PackageMaker
                 case VRCPackageEnum.Avatars:
                     packageType = "com.vrchat.avatars";
                     break;
-                case VRCPackageEnum:
-                    packageType = "com.vrchat";
+                case VRCPackageEnum.Base:
+                    packageType = "com.vrchat.base";
                     break;
                 case VRCPackageEnum.Worlds:
                     packageType = "com.vrchat.worlds";

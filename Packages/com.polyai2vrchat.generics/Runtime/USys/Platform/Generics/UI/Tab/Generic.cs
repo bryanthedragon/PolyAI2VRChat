@@ -12,9 +12,9 @@ namespace PolyBuzzToVRChat.Platform.Generics.UI.Tab
         public abstract bool isHovered { get; set; }
         public abstract bool isFocused { get; set; }      
     }
-    public sealed class AITab : AITabs
+    public class PolyBuzzTab : PolyBuzzTabs
     {
-        public PolyBuzzTab PolyBuzz { get; set; }
+        public AccountTab Account { get; set; }
     }
     public class SteamTab : SteamTabs
     {
@@ -35,5 +35,22 @@ namespace PolyBuzzToVRChat.Platform.Generics.UI.Tab
         public AboutTab About { get; set; }
         public NotificationsTab Notifications { get; set; }
         public AvatarTab Avatar { get; set; }
+    }
+    public class PersonaTab : ITabs
+    {
+        public bool isActive { get; set; }
+        public bool isVisible { get; set; }
+        public bool isHovered { get; set; }
+        public bool isFocused { get; set; }
+
+        public void Close()
+        {
+            
+        }
+
+        public void Open()
+        {
+            
+        }
     }
 }

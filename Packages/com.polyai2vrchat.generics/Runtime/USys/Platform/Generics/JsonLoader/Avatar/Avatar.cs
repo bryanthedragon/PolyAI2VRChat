@@ -4,18 +4,28 @@ namespace PolyBuzzToVRChat.Platform.Generics.JsonLoader.Avatar
     {
         
     }
-    public sealed class VRChatAvatarJsonLoader : IAvatarJsonLoader
-    {
 
+    namespace VRChat
+    {
+        public sealed class VRChatAvatarJsonLoader : IAvatarJsonLoader
+        {
+
+        }
     }
 
-    public sealed class PolyBuzzAvatarJsonLoader : IAvatarJsonLoader
+    namespace PolyBuzz
     {
+        public sealed class PolyBuzzAvatarJsonLoader : IAvatarJsonLoader
+        {
 
+        }
     }
 
-    public sealed class SteamAvatarJsonLoader : IAvatarJsonLoader
+    namespace Steam
     {
+        public sealed class SteamAvatarJsonLoader : IAvatarJsonLoader
+        {
 
+        }
     }
 }

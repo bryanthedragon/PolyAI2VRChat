@@ -2,7 +2,7 @@
 using BlackStartX.GestureManager.Editor.Modules.Vrc3.RadialSlices;
 using BlackStartX.GestureManager.Library.VisualElements;
 
-namespace BlackStartX.GestureManager.Editor.Modules.Vrc3.RadialPuppets
+namespace BlackStartX.GestureManager.Editor.Modules.Vrc3.RadialPuppets.Base
 {
     public abstract class BasePuppet : GmgCircleElement
     {

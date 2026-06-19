@@ -1,0 +1,9 @@
+{
+    "name": "PolyBuzzToVRChat.Abstractor.JsonLoader.Models",
+    "rootNamespace": "PolyBuzzToVRChat.JsonLoader.Models",
+    "references": [
+        "PolyBuzzToVRChat.Generics.JsonLoader.Models",
+        "PolyBuzzToVRChat.Generics.Platform.JsonLoader.Models"
+    ]
+
+}

@@ -1,0 +1,8 @@
+{
+    "name": "PolyBuzzToVRChat.Generics.UI.Menu",
+    "rootNamespace": "PolyBuzzToVRChat.UI.Menu",
+    "references": [
+        "PolyBuzzToVRChat.Generics.Platform.UI.Menu",
+        "PolyBuzzToVRChat.Abstractor.UI.Menu"
+    ]
+}

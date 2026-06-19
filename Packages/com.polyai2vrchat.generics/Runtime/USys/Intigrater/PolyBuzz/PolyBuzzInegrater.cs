@@ -1,9 +1,9 @@
-using PolyBuzzToVRChat.Accounting.Base;
-using PolyBuzzToVRChat.Avatar.Base;
-using PolyBuzzToVRChat.Persona.Base;
+using PolyBuzzToVRChat.Accounting;
+using PolyBuzzToVRChat.Avatar;
+using PolyBuzzToVRChat.Persona;
+using PolyBuzzToVRChat.Platform.Generics.Accounts;
 using PolyBuzzToVRChat.Platform.Generics.Avatars;
 using PolyBuzzToVRChat.Platform.Generics.Persona;
-using PolyBuzzToVRChat.Platform.Generics.Accounts;
 
 namespace PolyBuzzToVRChat.Integrator.PolyBuzz
 {
@@ -14,7 +14,7 @@ namespace PolyBuzzToVRChat.Integrator.PolyBuzz
             // Integration logic goes here
         }
 
-        private class Account : Account<PolyBuzzPlatform>
+        private class Account : AbstractAccount<PolyBuzzPlatform>
         {
             public void GetDisplayInfo() 
             {
@@ -22,7 +22,7 @@ namespace PolyBuzzToVRChat.Integrator.PolyBuzz
             }
         }
 
-        class Persona : Persona<PolyBuzzPersona>
+        class Persona : AbstractPersona<PolyBuzzPersona>
         {
             public void GetDisplayInfo() 
             {
@@ -30,7 +30,7 @@ namespace PolyBuzzToVRChat.Integrator.PolyBuzz
             }
         }
         
-        class Avatar : Avatar<PolyBuzzAvatar>
+        class Avatar : AbstractAvatar<PolyBuzzAvatar>
         {
             public void GetDisplayInfo() 
             {

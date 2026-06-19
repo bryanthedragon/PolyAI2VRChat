@@ -1,0 +1,9 @@
+{
+    "name": "PolyBuzzToVRChat.Abstractor.Accounting",
+    "rootNamespace": "PolyBuzzToVRChat.Accounting",
+    "references": [
+        "PolyBuzzToVRChat.Generics.Accounting",
+        "PolyBuzzToVRChat.Generics.Platform.Accounting"
+    ]
+
+}

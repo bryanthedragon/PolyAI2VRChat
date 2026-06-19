@@ -1,0 +1,8 @@
+{
+    "name": "PolyBuzzToVRChat.Abstractor.JsonLoader.Accounting",
+    "rootNamespace": "PolyBuzzToVRChat.JsonLoader.Accounting",
+    "references": [
+        "PolyBuzzToVRChat.Generics.Platform.Accounting"
+    ]
+
+}

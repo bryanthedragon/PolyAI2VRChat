@@ -1,9 +1,8 @@
-using PolyBuzzToVRChat.JsonLoader.Persona.Base;
-using PolyBuzzToVRChat.Platform.Generics.Persona;
+using PolyBuzzToVRChat.Platform.Generics.JsonLoader.Persona;
 
 namespace PolyBuzzToVRChat.JsonLoader.Persona.Steam
 {
-    public class Steam : PersonaJsonLoader<SteamPersona>
+    public class Steam : PersonaJsonLoader<SteamPersonaJsonLoader>
     {
         
     }

@@ -1,0 +1,8 @@
+{
+    "name": "PolyBuzzToVRChat.Abstractor.USys",
+    "rootNamespace": "PolyBuzzToVRChat.UI",
+    "references": [
+        "PolyBuzzToVRChat.Generics.UI"
+    ]
+
+}

@@ -1,9 +1,8 @@
-using PolyBuzzToVRChat.JsonLoader.Persona.Base;
-using PolyBuzzToVRChat.Platform.Generics.Persona;
+using PolyBuzzToVRChat.Platform.Generics.JsonLoader.Persona;
 
 namespace PolyBuzzToVRChat.JsonLoader.Persona.VRChat
 {
-    public class VRChat : PersonaJsonLoader<VRChatPersona>
+    public class VRChat : PersonaJsonLoader<VRChatPersonaJsonLoader>
     {
         
     }

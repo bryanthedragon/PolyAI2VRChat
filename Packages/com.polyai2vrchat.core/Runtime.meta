@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Packages/com.polyai2vrchat.generics/Runtime.meta
+guid: 3fced2b6b7253b044b229bc367592031
+========
+guid: 1624f9dfccbd276468b915e3fe7b21eb
+>>>>>>>> 2ce0172d4246013d35f8fd0d9410aa86359ec889:Packages/com.polyai2vrchat.core/Runtime.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

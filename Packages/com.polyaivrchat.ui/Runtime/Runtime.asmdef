@@ -1,0 +1,7 @@
+{
+    "name": "PolyBuzzToVRChat.Runtime.UI",
+    "rootNamespace": "PolyBuzzToVRChat.UI",
+    "references": [
+        "PolyBuzzToVRChat.Generics.Platform.UI"
+    ]
+}

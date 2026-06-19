@@ -1,9 +1,9 @@
-using PolyBuzzToVRChat.Accounting.Base;
+using PolyBuzzToVRChat.Accounting;
 using PolyBuzzToVRChat.Platform.Generics.Accounts;
 
 namespace PolyBuzzToVRChat.Accounting.VRChat
 {
-    public class VRChatAccount : Account<VRChatPlatform>
+    public class VRChatAccount : AbstractAccount<VRChatPlatform>
     {
         public new void DisplayInfo()
         {

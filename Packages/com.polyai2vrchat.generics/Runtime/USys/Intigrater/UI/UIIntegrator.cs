@@ -1,7 +1,4 @@
-using PolyBuzzToVRChat.Platform.Generics.UI;
-using PolyBuzzToVRChat.UI.Steam.Menu;
-using PolyBuzzToVRChat.UI.VRChat.Menu;
-using PolyBuzzToVRChat.UI.PolyBuzz.Menu;
+using PolyBuzzToVRChat.Platform.Generics.UI.Menu;
 
 namespace PolyBuzzToVRChat.UI.Integrater
 {

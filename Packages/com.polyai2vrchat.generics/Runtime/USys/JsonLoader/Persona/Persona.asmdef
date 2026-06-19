@@ -1,7 +1,6 @@
 {
-    "name": "PolyBuzzToVRChat.JsonLoader.Persona",
+    "name": "PolyBuzzToVRChat.Generics.JsonLoader.Persona",
     "rootNamespace": "PolyBuzzToVRChat.JsonLoader.Persona",
     "references": [
-        "PolyBuzzToVRChat.Platform.Generics"
     ]
 }

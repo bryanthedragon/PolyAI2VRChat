@@ -1,0 +1,9 @@
+{
+    "name": "PolyBuzzToVRChat.Abstractor.JsonLoader.Avatar",
+    "rootNamespace": "PolyBuzzToVRChat.JsonLoader.Avatar",
+    "references": [
+        "PolyBuzzToVRChat.Generics.JsonLoader.Avatar",
+        "PolyBuzzToVRChat.Generics.Platform.JsonLoader.Avatar"
+    ]
+
+}

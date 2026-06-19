@@ -19,7 +19,7 @@ namespace PolyBuzzToVRChat.Platform.Generics.Persona
             System.Console.WriteLine($"PersonaId: {PersonaId}");
         }
     }
-    public sealed class VRChatPersona : IPersona
+    public class VRChatPersona : IPersona
     {
         public string Name { get; set; }
         public int Age { get; set; }
@@ -28,7 +28,7 @@ namespace PolyBuzzToVRChat.Platform.Generics.Persona
         public string Background { get; set; }
         public int PersonaId { get; set; }
     }
-    public sealed class PolyBuzzPersona : IPersona
+    public class PolyBuzzPersona : IPersona
     {
         public string Name { get; set; }
         public int Age { get; set; }
@@ -37,7 +37,7 @@ namespace PolyBuzzToVRChat.Platform.Generics.Persona
         public string Background { get; set; }
         public int PersonaId { get; set; }
     }
-    public sealed class SteamPersona : IPersona
+    public class SteamPersona : IPersona
     {
         public string Name { get; set; }
         public int Age { get; set; }
